@@ -1,0 +1,12 @@
+/.metadata
+/wd-service/.mvn
+/wd-service/.settings
+/wd-service/target
+/wd-service/.classpath
+/wd-service/.project
+/wd-service/HELP.md
+/wd-service/mvnw
+/wd-service/mnvw.cmd
+/wd-web/e2e
+/wd-web/node_modules
+/wd-web/.editorconfig

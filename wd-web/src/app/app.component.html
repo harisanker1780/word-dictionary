@@ -1,0 +1,61 @@
+<style>
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .word {
+    font-size: 20px;
+  }
+
+  input {
+    border-radius: 5px;
+    width: 45%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  label {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  select {
+    font-size: 20px;
+  }
+</style>
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+   Word Dictionary
+  </h1>
+  <img width="100" alt="Dictionary Logo" src="data:image/jpeg;base64,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">
+  <div class="flex-container">
+    <div style="border: 1px solid black; padding: 10px;">
+      <h3>Upload File</h3>
+      <input type="file"  (change)="onFileSelect($event)"/>
+    </div>
+
+    <div style="text-align:center">
+        <h3>Search Word With Prefix</h3>
+        <input type="text" placeholder="Type the word prefix to search and click Enter.. (e.g. th will show the, there, that, ..)" (keydown.enter)="search($event)"/>
+        <label>Word Limit</label>
+        <select name="limit" [(ngModel)]="selectedLimit">
+            <option *ngFor="let opt of options" [value]="opt">
+                {{ opt }}
+            </option>
+        </select>
+        <div *ngIf="matchingWords && matchingWords.length > 0">
+            <span class="word" *ngFor="let word of matchingWords">{{word}}, </span>
+        </div>
+        <div *ngIf="matchingWords && matchingWords.length == 0">
+          <span>No words found</span>
+        </div>
+    </div>
+
+  </div>
+</div>
+
